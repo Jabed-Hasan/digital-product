@@ -1,0 +1,164 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.menu-container{
+    background-color: rgb(65, 59, 59);
+    padding:20px;
+    color: white;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.menus{
+    display: flex;
+}
+.logo-photo{
+    width: 120px;
+}.item{
+    margin-right: 10px;
+    padding-right: 7px;
+    font-size: 15px;
+    cursor: pointer;
+}
+.item:hover{
+    color: blue;
+}
+.banner-img{
+    width: 300px;
+}
+.banner-container{
+    display: flex;
+    justify-content: space-around;
+    height: 100vh;
+    align-items: center;
+    color: white;
+    /* border: 2px solid gray; */
+    background-image: url(./images/background.png),linear-gradient(45deg,#353434,#080808);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.title{
+    font-size: 55px;
+    font-weight: bold;
+}
+.description{
+    font-size: 18px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+}
+.btn{
+    padding: 15px 10px;
+    background-color: red;
+    color: white;
+    border: none;
+}
+.about-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+.about-title{
+    text-align: center;
+    padding-top: 20px;
+
+}
+.about-subtitte{
+    padding-bottom: 50px;
+}
+
+.about-info{
+    padding: 20px;
+}
+.box{
+    width: 230px;
+    height: 280px;
+    box-shadow: 4px 4px 15px gray ;
+    color: white;
+    text-align: center;
+    background-color: black;
+    padding: 15px;
+    border-radius: 10px;
+}
+.icon{
+    width: 100px;
+}
+.box-container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.box-btn{
+ background-color: gray;
+ margin-top: 10px;
+}
+.box-titte{
+    padding: 15px;
+
+}
+.box-description{
+    padding: 5px;
+}
+.service-container{
+    color: white;
+    justify-content: space-around;
+    height: 70vh;
+    padding: 50px;
+    background-image: url(./images/background.png),linear-gradient(45deg,rgb(5, 5, 5), #2e2e2e);
+    flex-wrap: wrap;
+}
+
+.section{
+    display: block;
+}
+
+footer{
+    width: 100%;
+    height: 70vh;
+    background-image: url("./asset/image/footer-bg.png"),linear-gradient(rgba(0,0,0,1),rgba(0,0,0,0.9));
+    background-repeat:no-repeat;
+    background-blend-mode: overlay;
+    color: white;
+    line-height: 1.8em;
+   
+}
+.footer-container{
+    display: flex;
+    width: 75%;
+    height: 60vh;
+    margin: 0 auto;
+    justify-content: space-around;
+    align-items: center;
+    /* padding: 20px; */
+    border-bottom: 1px solid gray;
+}
+.logo-box{
+    width: 25%;
+}
+.logo-box img{
+    width:170px;
+}
+
+.copy{
+    text-align: center;
+    padding: 15px;
+}
+.fa-solid{
+    margin-right: 7px;
+}
+.footer-title{
+    margin-bottom: 30px;
+}
+.icons{
+    /* text-align: center; */
+    margin-top:20px;
+}
+.fa-brands{
+    margin: 10px;
+    font-size:20px;
+}
